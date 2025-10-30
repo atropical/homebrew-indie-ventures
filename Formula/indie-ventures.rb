@@ -6,6 +6,10 @@ class IndieVentures < Formula
   license "OSL-3.0"
   version "0.1.1-alpha"
 
+  head do
+    url "https://github.com/atropical/indie-ventures.git", branch: "main"
+  end
+
   depends_on "gum"
   depends_on "docker"
   depends_on "docker-compose"
